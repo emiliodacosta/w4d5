@@ -1,0 +1,29 @@
+.sections-nav ul {
+  margin-top: 8px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 8px;
+}
+
+.sections-nav ul li:hover {
+  background-color: $light-gray;
+}
+
+#all-link {
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+#all-link:hover {
+
+  text-decoration: underline;
+  background-color: white;
+}
+
+.sections-nav {
+  border-bottom: 2px solid $light-gray;
+}

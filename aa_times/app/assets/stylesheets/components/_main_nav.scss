@@ -1,0 +1,16 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 2px;
+  border-bottom-width: flex;
+  border-bottom-color: $lightest-gray;
+  border-bottom-style: solid;
+}
+
+.left-nav > ul,
+.right-nav > ul {
+  display: flex;
+  font-family: sans-serif;
+  font-weight: bold;
+}
